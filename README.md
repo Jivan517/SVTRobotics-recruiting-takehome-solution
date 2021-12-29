@@ -17,3 +17,5 @@
 2. We Can use logging library - depening upong how the API is being hosted, we can use corresponding logging framework such as Serilog with SEQ/Kibanna etc.
 3. We Can use Polly library to make HTTP calls fault tolerant 
 4. We can utilize Async streams if Robots count is going to be really huge
+5. We can drive the robots API url from configuration
+6. If the API is being containerized, we can add docker related configuration files.
